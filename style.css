@@ -59,3 +59,16 @@
     margin-top: 3vw;
     margin-left: 2px;
 }
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.imagens-main {
+    width: 280px;
+    height: 280px;
+    margin: 0.4vw;
+}
