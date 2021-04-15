@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3px;
+    width: 100%;
+    height: 80px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: 5.9rem;
+    padding: 1.5rem;
+    font-size: 25px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 5.9rem;
+    padding: 1.5rem;
+}
+.menu-cotent {
+    margin-left: 30px;
+    font-size: 15px;
+}
+.menu-cotent-bold {
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.orange-blue-background {
+    background-image: url(imagens/laranja-azul-recorte.png);
+    width: 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subtitle-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 36.5rem;
+    margin-left: 7.2rem;
+}
+.subtitle {
+    color: #FFFFFF;
+    font-size: 58px;
+}
+.subtitle-help {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 3vw;
+    margin-left: 2px;
+}
