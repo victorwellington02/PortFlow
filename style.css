@@ -10,16 +10,16 @@
     align-items: center;
     height: 3px;
     width: 100%;
-    height: 80px;
+    height: 5rem;
 }
-.title {
+.title-header {
     display: flex;
     align-items: center;
     margin-left: 5.9rem;
     padding: 1.5rem;
     font-size: 25px;
 }
-.menu {
+.menu-header {
     display: flex;
     align-items: center;
     list-style: none;
@@ -40,7 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.subtitle-header {
+.subtitle-header-box {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -48,11 +48,11 @@
     height: 36.5rem;
     margin-left: 7.2rem;
 }
-.subtitle {
+.subtitle-header {
     color: #FFFFFF;
     font-size: 58px;
 }
-.subtitle-help {
+.subtitle-paragraph {
     color: #FFFFFF;
     font-size: 20px;
     text-transform: uppercase;
@@ -64,11 +64,48 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 .imagens-main {
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 290px;
     margin: 0.4vw;
+}
+.container-footer {
+     display: flex;
+     align-items: flex-end;
+     height: 5rem;
+     background-color: #F5F5F5;
+}
+.box-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem;
+    margin-left: 1.1rem;
+}
+.imagens-footer {
+    margin-left: 1.9rem;
+    width: 25px;
+    height: 26px;
+}
+.exclusive-right-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7.4rem;
+}
+.exclusive-title {
+    font-size: 14px;
+}
+.exclusive-right-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+}
+.exclusive-paragraph {
+    font-size: 11px;
+    width: 30vw;
 }
