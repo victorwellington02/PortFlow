@@ -3,6 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    width: 1024px;
+    height: 760px;
 }
 .header {
     display: flex;
