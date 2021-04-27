@@ -417,7 +417,9 @@
 }
 @media(max-width: 375px) {
     .imagens-main {
-    width: 900vw;
+    width: 160vw;
+    height: 160vw;
+    margin-bottom: 19vw;
 }
 }
 .container-footer {
@@ -483,7 +485,7 @@
 }
 @media(max-width: 375px) {
     .container-footer {
-        display: none;
+        display: flex;
         align-items: flex-end;
         width: 160vw;
         height: 5rem;
