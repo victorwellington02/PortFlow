@@ -37,7 +37,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 100%;
+        width: 201vw;
         height: 3rem;
         background-color: #FFFFFF;
         position: fixed;
@@ -244,7 +244,7 @@
     align-items: flex-start;
     flex-direction: column;
     height: 36.5rem;
-    margin-left: 7.2rem;
+    margin-left: 7.8rem;
 }
 @media(max-width: 375px) {
     .subtitle-header-box {
@@ -496,8 +496,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 1.5rem;
-    margin-left: 2rem;
+    margin-bottom: 1.5vw;
+    margin-left: 8.3vw;
     width: 70%;
 }
 @media(max-width: 768px){
@@ -505,7 +505,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding: 0.5rem;
+        margin-bottom: 0.5vw;
         margin-left: 2rem;
         width: 70%;
     }
